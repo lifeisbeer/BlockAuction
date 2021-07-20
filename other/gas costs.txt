@@ -1,0 +1,30 @@
+--- Operator ---
+-Contract deployment gas used: 3696733
+
+-Trading phase gas used: [29273, 93557] - depending on parameters and if it is the first
+-Reveal phase gas used: 37869
+-Calculation phase gas used: 31460
+-Results phase gas used: 37088
+-Registration phase gas used: 31458
+
+-Register client gas used: 86869
+-Chnage public-key gas used: 37655
+-Reveal match gas used: 149003 (146731) - if first reveal for both clients 
+-Reveal match gas used: 95168 - if one client was matched again in a previous order
+-Remove order gas used: 37227 (commit, reveal & sk = more staff to delete), 
+			35069 (commit & reveal     = less staff to delete), 
+		        20268 (commit only         = less things to delete), 
+		        25768 (neither             = no gas is refunded)
+-Remove client (remove order first) gas used: 21028
+-Remove client (without first removing order) gas cost: 47899 (commit, reveal & sk)
+							43207 (commit & reveal)
+
+
+--- Client ---
+-Commit gas used: 66868 - first one takes more gas because it needs to initialise the order
+			  counter, that is the reason why cancelling last also costs less
+		  51868 - all others
+-Change commitment gas used: 30049
+-Cancel commitment gas used: 18557 - last takes less gas as counter (storage) is released
+			     22114 - all others
+-Reveal gas used: 170624 (142184 for some reason in unit tests)

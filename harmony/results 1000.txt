@@ -1,0 +1,49 @@
+Contract deployed at address: 0x0af2Ab50df46c1BDFCb0b165abf9e774751dE2F6 and block: 12388956.
+Gas used: 3696733.
+Tx Hash: 0x25b76ac37489ea996876da42f2ea1b735efdb2e0971666b30aa6d946943dc435
+Timestamp: 2021-07-17 15:50:55
+START: 12388956.
+-----------------------------------------------------------------------------------------------
+At Registration phase. Current block: 12388956.
+Total gas used during the registration phase (client registration): 86895141.
+-----------------------------------------------------------------------------------------------
+At Trading phase. Current block: 12389087, Expiration: 12389088.
+Auction Matching type: Volume.
+Tx Hash: 0x9eb5771128893f946a6d140dd5551cc2316cbb51977d481bdd62ce928b560cfe
+Timestamp: 2021-07-17 15:55:17
+Total gas used during the trading phase: 51919453.
+-----------------------------------------------------------------------------------------------
+At Reveal phase. Current block: 12389327, Expiration: 12389328.
+Tx Hash: 0x5a7cbd7177872ff8a491d9c4bee6a693f234c255c5a3fbf60df7e8763594f445
+Timestamp: 2021-07-17 16:03:17
+Total gas used during the reveal phase: 170690548.
+-----------------------------------------------------------------------------------------------
+At Calculation phase. Current block: 12389537.
+Tx Hash: 0x0db4a133d3ced7aaec678975771e7c1ed7f9a53fd4cb0cc3260a3ad1198c0330
+Timestamp: 2021-07-17 16:10:17
+Order verification time: 110.3636742000001.
+Matching time for asset g: 0.002661600000010367.
+Matching time for asset t: 0.003109799999947427.
+Matching time for asset f: 0.0039520999998785555.
+Total gas used during the calculation phase: 78289822.
+-----------------------------------------------------------------------------------------------
+At Results phase. Current block: 12389707, Expiration: 12389708.
+Tx Hash: 0xe3b57284e0e7c17f38838166ab56c9c74bb2c86c1a1d0ed8ed38754f18918008
+Timestamp: 2021-07-17 16:15:57
+Total gas used during the results phase: 31458.
+-----------------------------------------------------------------------------------------------
+At Registration phase. Current block: 12389710.
+Tx Hash: 0xb6e30df3bef0b6778c4304c699ee7b3a7cdcac82fd98b3639b3c7fdc447dcfaf
+Timestamp: 2021-07-17 16:16:03
+Total gas used during the registration phase (client deletion): 47430928.
+END: 12389865.
+Timestamp: 2021-07-17 16:21:13
+-----------------------------------------------------------------------------------------------
+TOTAL:
+tx count: 4709 (704 matchings)
+duration: 1818 seconds (909 blocks)
+gas cost: 438,954,083
+REPEAT:
+tx count: 3709
+duration: 1556 seconds (778 blocks)
+gas cost: 348,362,209
