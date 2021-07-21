@@ -40,7 +40,7 @@ END: 12388527
 Timestamp: 2021-07-17 15:36:37
 -----------------------------------------------------------------------------------------------
 TOTAL:
-tx count: 48 (2 matchings)
+tx count: 48 (3 matchings)
 duration: 50 seconds (25 blocks)
 gas cost: 7,887,035
 REPEAT:

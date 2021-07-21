@@ -1,6 +1,6 @@
---- 10 2 ---
-Theoretical gas cost: (7638110,7694103]
-Theoretical gas cost for repeat: (3072687,3128680]
+--- 10 3 ---
+Theoretical gas cost: (7735436,7847422]
+Theoretical gas cost for repeat: (3170013,3281999]
 Theoretical runtime: (11,11]
 --- 100 42 ---
 Theoretical gas cost: (42529850,44825563]
